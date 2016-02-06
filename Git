@@ -1,0 +1,51 @@
+Q1.How to add collaborator to github?
+
+Ask for the username of the person you're adding as a collaborator. If they don't have one, they can sign up for GitHub.
+On GitHub, navigate to the main page of the repository.
+Repository settings buttonUnder your repository name, click  Settings.
+Collaborators tabClick the "Collaborators & teams" tab.
+Start typing the collaborator's username.
+Collaborator list drop-down menuSelect the user from the drop-down menu.
+Add buttonClick Add collaborator.
+
+Q2.how to add new person?
+Under your organization name, click  Teams.
+Team panel with New Team button selectedOn the Teams tab, click the name of the team.
+Type the username of the person you want to add and press Enter.
+
+Forking a repository is NOT the same as transferring it. Forking just creates a copy of the original repository.
+
+
+Q3.how to access another  user repository in github Transfer how to transfer a repository to another user account?
+On GitHub, navigate to the main page of the repository.
+Repository settings buttonUnder your repository name, click  Settings.
+Transfer buttonClick Transfer.
+Read the warnings and enter the repository name to confirm that you've done so.
+Transfer buttonType the name of the new owner and click I understand, transfer this repo.
+
+Q4.Resolving a removed file conflict
+when 2 braches use same file with 1 changing same file and 2nd delete same file.
+dont want to delete
+add that deleted file again, commit,git show
+
+want to delete
+git rm file name
+ 
+Q5.edit conflict?
+In branch-a, you wrote the word "nine," but your friend wrote "eight." Git automatically adds conflict markers to the affected areas. A conflict-marked area begins with <<<<<<< and ends with >>>>>>>. These are also known as the conflict markers. The two conflicting blocks themselves are divided by a =======.
+
+Q6. how to copy repository from one account?
+fork 
+git clone urlofrepository: remote -v : remote add upstream Url 
+
+Q7.how can multiple user work on same file because conflict going to come?
+
+
+Q8. how to apply permission to particular branch?
+You can also add other users to the Owners group, which will give them full access to the project. Including permission to add and remove other owners
+You are automatically assigned to the Owners group after creating a project and this give you permission to add other users to your project. To give a user permission to add and delete samples add them to the Collaborators group. Add the user collab_user to the Collaborators group:
+
+Q9.how to go to commit done before 3 days?
+commit creates one uniqe code so by using these code we can checkout to any commit.
+
+ 
